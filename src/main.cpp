@@ -7,7 +7,6 @@
  * - Press T for Temperature graph, H for Humidity graph, P for Pressure graph
  * - Press ESC (` or ~) to return to main page
  * - 1 hour history graphs
- * - Battery meter with color status
  * - Configurable screen timeout (10s, 30s, or Always On)
  */
 
@@ -569,8 +568,8 @@ void drawSettingsPageStatic() {
   // Instructions at bottom
   M5Cardputer.Display.setTextColor(TFT_DARKGREY);
   M5Cardputer.Display.setTextSize(1);
-  M5Cardputer.Display.setCursor(5, screenH - 20);
-  M5Cardputer.Display.print("; . :select   , / :change");
+  M5Cardputer.Display.setCursor(60, screenH - 10);
+  M5Cardputer.Display.print("< . :select   , > :change");
   M5Cardputer.Display.setCursor(5, screenH - 10);
   M5Cardputer.Display.print("ESC:back");
 }
