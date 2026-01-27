@@ -568,10 +568,8 @@ void drawSettingsPageStatic() {
   // Instructions at bottom
   M5Cardputer.Display.setTextColor(TFT_DARKGREY);
   M5Cardputer.Display.setTextSize(1);
-  M5Cardputer.Display.setCursor(60, screenH - 10);
-  M5Cardputer.Display.print("< . :select   , > :change");
   M5Cardputer.Display.setCursor(5, screenH - 10);
-  M5Cardputer.Display.print("ESC:back");
+  M5Cardputer.Display.print("ESC:back | < >:change");
 }
 
 //----------------------------------------------------------
