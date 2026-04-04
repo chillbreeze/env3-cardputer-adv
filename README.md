@@ -1,4 +1,4 @@
-# env3-cardputer-adv
+# ENV III for Cardputer ADV
 
 M5Stack Cardputer ADV and M5Stack ENV III sensor (SHT30 and QMP6988) grove connector.
 
